@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frelat Celyan Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #8FBC8F;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .section {
+            padding: 40px 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: White;
+            border-radius: 8px;
+        }
+        .projects img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+        .projects .project {
+            margin-bottom: 40px;
+        }
+        .projects h2 {
+            font-size: 1.5em;
+        }
+        .projects p {
+            font-size: 1em;
+            color: #555;
+        }
+        .contact form input, .contact form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact form button {
+            background-color: #333;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+        .contact form button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Celyan Frelat - Gameplay Programmer</h1>
+        <nav>
+            <a href="#about">About</a> | 
+            <a href="#projects">Projects</a> | 
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <div class="section" id="about">
+        <h2>Who am I ?</h2>
+        <p>Welcome to my portfolio my name is Celyan Frelat, a passionate gameplay programmer studying at ESMA Montpellier.<br>I specialize in gameplay programming on Unreal Engine, and Unity. I love playing video games but also I love making them.<br>I want through my mecanics and gameplay feature give to players engaging gameplay experiences in video games.</p>
+    </div>
+
+    <div class="section projects" id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>Monkey Tape King</h3>
+            <img src="ScreenMonkeyTape.png">
+            <p>A maleficent monkey cast a spell on a cult compilation of 80's movies; As a big fan of 80's movie in 2025, you bring the tape to your house, after put it in the video recorder your soul gets inhaled in the TV and you wake up in this strange place.<br><br>My participation on the project was very significant so here's a list :<br><br>3C prototype and final version<br>Gun prototype and its final version<br>the tutorial<br>A little bit of LD<br>Lighting<br>LA<br>A bit of help in GD<br>All the AI prototype to Final Version<br>Optimization<br><br>There was also small other things but no matter here; The game was made in Unreal Blueprint only</p>
+        </div>
+
+        <div class="project">
+            <h3>Project 2 PlaceHolder</h3>
+            <img src="project2.jpg" alt="Project 2">
+            <p>PlaceHolder</p>
+        </div>
+
+        <!-- Add more projects here -->
+    </div>
+
+    <div class="section contact" id="contact">
+        <h2>Contact Me</h2>
+        <form action="mailto:celyan.frelat@gmail.com" method="post" enctype="text/plain">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+</body>
+</html>
